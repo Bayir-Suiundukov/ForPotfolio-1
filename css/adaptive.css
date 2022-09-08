@@ -1,0 +1,276 @@
+@media only screen and (max-width:1024px) {
+
+    * {
+        font-size: 1.7vw;
+    }
+
+
+    .nav {
+        max-width: 80vw;
+    }
+
+    .container {
+        max-width: 80vw;
+    }
+
+    .name {
+        font-size: 4vw;
+    }
+
+    .info {
+        font-size: 2vw;
+    }
+
+    .lang {
+        font-size: 2vw;
+    }
+
+    .about__text {
+        width: 80vw;
+    }
+
+
+    .app>img {
+        width: 10vw;
+    }
+
+    .app:nth-child(4) img {
+        width: 6.556vw;
+    }
+
+    figcaption {
+        font-size: 1.4vw;
+    }
+
+    h1 {
+        font-size: 3vw;
+    }
+
+    h1,
+    p {
+        margin: 3vw;
+    }
+
+    button {
+        font-size: 2.5vw;
+    }
+
+    .footer {
+        max-width: 31vw;
+    }
+
+    .footer__social img {
+        width: 3.5vw;
+    }
+
+}
+
+
+@media only screen and (max-width:768px) {
+
+    * {
+        font-size: 1.7vw;
+    }
+
+
+    .nav {
+        max-width: 80vw;
+        display: none;
+    }
+
+    .nav__links {
+        display: none;
+    }
+
+    .nav__button {
+        display: block;
+    }
+
+    .container {
+        max-width: 80vw;
+    }
+
+    .name {
+        font-size: 4vw;
+    }
+
+    .info {
+        font-size: 2vw;
+    }
+
+    .lang {
+        font-size: 2vw;
+    }
+
+    .about__text {
+        width: 80vw;
+    }
+
+
+    .app>img {
+        width: 10vw;
+    }
+
+    .app:nth-child(4) img {
+        width: 6.556vw;
+    }
+
+    figcaption {
+        font-size: 1.4vw;
+    }
+
+    h1 {
+        font-size: 3vw;
+    }
+
+    h1,
+    p {
+        margin: 3vw;
+    }
+
+    button {
+        font-size: 2.5vw;
+    }
+
+    .footer {
+        max-width: 31vw;
+    }
+
+    .footer__social img {
+        width: 3.5vw;
+    }
+
+
+}
+
+@media only screen and (max-width:375px) {
+
+    * {
+        font-size: 5vw;
+    }
+
+    /* Template */
+    .container {
+        max-width: 90vw;
+    }
+
+    /* Nav */
+
+    .nav {
+        max-width: 90vw;
+    }
+
+    /* Header */
+
+    .title {
+        flex-direction: column;
+        text-align: start;
+        align-items: flex-start;
+    }
+
+    .name {
+        font-size: 9vw;
+    }
+
+    .info {
+        font-size: 5vw;
+    }
+
+    .lang {
+        font-size: 2vw;
+        display: none;
+    }
+
+    .section>.container>div:nth-child(2) {
+        width: 100%;
+        height: 56vh;
+        background-position: center;
+        background-size: cover;
+        background-image: url(/img/mobile-banner.png);
+    }
+
+    .banner {
+        margin: 3vw 0 3vw 0;
+
+    }
+
+    .section>.container>.banner img {
+        display: none;
+    }
+
+    /* About Me */
+
+    .about {
+        height: 60vh;
+    }
+
+    .about__text {
+        width: 87vw;
+        margin: 0 auto;
+    }
+
+    /* Skills */
+
+    .skills {
+        height: 140vh;
+        margin: 10vh 0;
+    }
+
+    .apps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .app {
+        margin: 15vw 0;
+    }
+
+    .app>img {
+        width: 25vw;
+    }
+
+    .app:nth-child(4) img {
+        width: 16.39vw;
+    }
+
+    figcaption {
+        font-size: 4vw;
+    }
+
+    h1 {
+        font-size: 8vw;
+    }
+
+    h1,
+    p {
+        margin: 10vw;
+    }
+
+    button {
+        font-size: 5vw;
+        padding: 2vw 25vw;
+    }
+
+    /* Footer */
+
+    .footer {
+        max-width: 80vw;
+    }
+
+    .footer__content {
+        margin: 5vh 0;
+    }
+
+    .footer figcaption {
+        font-size: 4.6vw;
+    }
+
+    .footer__social img {
+        width: 10vw;
+    }
+
+    .contacts>.container>.content>p {
+        margin: 7vw;
+    }
+
+}

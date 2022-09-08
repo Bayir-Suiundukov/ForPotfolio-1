@@ -1,0 +1,284 @@
+@import url(/fonts/gilroy/gilroy.css) screen;
+
+* {
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+
+    font-size: 1vw;
+    font-family: 'gilroy';
+    color: #070707;
+    scroll-behavior: smooth;
+}
+
+/* Templates */
+
+.container {
+    max-width: 50vw;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Navigation */
+
+.nav {
+    max-width: 50vw;
+    width: 100%;
+    height: 9vh;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-bottom: 1px #828282 solid;
+    background: #fff;
+
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
+}
+
+.name-button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.nav__button{
+    border: none;
+    padding: 0;
+    
+    z-index: 3;
+}
+
+
+.nav__button{
+    display: none;
+    background-color: #fff;
+    border: none;
+    
+    text-align: end;
+}
+
+.nav__links {
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin: 2vw 0;
+    justify-content: space-between;
+    
+    font-size: 1.1vw;
+    font-weight: 800;
+}
+
+.nav__links a {
+    color: #828282;
+    border-bottom: 3px #07070700 solid;
+    transition: .2s;
+}
+
+.nav__links a:hover {
+    color: #000;
+    border-bottom: 3px #070707 solid;
+}
+
+/* Section */
+
+
+
+.invis{
+    display: none;
+}
+.vis{
+    display: inline-block;
+}
+
+.section {
+    margin: 2vw 0 10vw 0;
+    position: relative;
+}
+
+#submenu{
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+    width: 40%;
+}
+.submenu{
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+}
+.submenu a{
+    margin: 1.3vw;
+    font-size: 3vw;
+    font-weight: 800;
+
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+    align-items: flex-end;
+
+}
+
+.name {
+    font-weight: 800;
+    font-size: 2.8vw;
+}
+
+.info {
+    font-weight: 400;
+    font-size: 1vw;
+}
+
+.lang {
+    font-weight: 800;
+    font-size: 1vw;
+
+    z-index: 0;;
+    transform: rotate(-90deg);
+}
+
+.banner {
+    margin: 3vw 0 3vw 0;
+
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* About Me */
+
+.about {
+    height: 30vw;
+    display: flex;
+}
+
+.about__text {
+    text-align: center;
+    align-items: center;
+    width: 35vw;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.1vw;
+}
+
+h1,
+p {
+    margin: 3vw;
+}
+
+/* Skills */
+
+.skills {
+    height: 30vw;
+    display: block;
+}
+
+.content {
+    align-items: center;
+    text-align: center;
+}
+
+.apps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    width: 6vw;
+
+    align-items: center;
+    text-align: center;
+
+    font-weight: 800;
+    transition: .4s;
+}
+
+.app:hover {
+    transform: scale(1.2);
+}
+
+.app>img {
+    width: 5vw;
+}
+
+.app:nth-child(4) img {
+    width: 3.26vw;
+}
+
+figcaption {
+    margin: 1.5vw 0;
+    font-size: 0.84vw;
+    color: #828282;
+    text-align: center;
+}
+
+/* Portfolio */
+
+.portfolio {}
+
+label {
+    display: block;
+    text-decoration: underline;
+    margin-bottom: 8vw;
+}
+
+button {
+    background: #000;
+    color: #fff;
+    border: 2px #000 solid;
+    border-radius: 60px;
+    font-size: 1.2vw;
+    font-weight: 400;
+    padding: 0.5vw 1.5vw;
+    transition: .4s;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #fff;
+    color: #000;
+}
+
+.footer {
+    max-width: 21vw;
+    width: 100%;
+    margin: 5vw auto;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__social {
+    transition: .2s;
+}
+
+.footer__social img {
+    width: 2.3vw;
+}
+
+.footer__social:hover {
+    transform: scale(1.2);
+}
